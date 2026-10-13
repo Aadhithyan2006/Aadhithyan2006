@@ -1,41 +1,59 @@
-<div align="center">
-  <h1>Hi 👋, I'm Aadhithyan</h1>
-  <p><b>Full-Stack Developer | Open Source Enthusiast</b></p>
-</div>
 
----
+Typing SVG
+viewsfollowersstars
+🧑‍🚀 About Me
+name: Aadhithyanborn: 2006role: Student Developerlocation: Indiacurrent_focus: ["Web Development", "DSA", "Open Source"]learning: ["React", "Node.js", "Python"]fun_fact: "I debug with console.log and pray 🙏"
+🔭 I'm currently working on [your project name]
+🌱 I'm currently learning [what you're learning]
+👯 Looking to collaborate on open source & fun side projects
+💬 Ask me about anything — I love tech talks!
+⚡ Fun fact: [something unique about you]
+⚙️ Tech Stack
+👨‍💻 Languages
+PythonJavaScriptJavaHTML5CSS3
 
-### 👨‍💻 About Me
-- 🔭 I’m currently working on full-stack web applications.
-- 🌱 I’m currently learning modern web architectures & cloud deployment.
-- 🔗 Portfolio Website: [View My Portfolio](https://github.com/Aadhithyan2006)
-- ⚡ Fun Fact: I enjoy turning complex logic into simple, intuitive code.
+🖥️ Frameworks & Tools
+ReactNode.jsGitVS CodeMySQL
 
----
+📊 GitHub Stats
 
-### 🛠 Tech Stack & Tools
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
 
----
 
-### 📊 GitHub Analytics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aadhithyan2006&show_icons=true&theme=tokyonight&hide_border=true" alt="Aadhithyan's GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aadhithyan2006&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+🌐 Connect With Me
 
----
+🐍 Snake Animation
+Snake animation
 
-### 📌 Featured Projects
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[Portfolio Website](https://github.com/Aadhithyan2006)** | Personal interactive developer portfolio showcase | HTML, CSS, JS |
-| **[Project Name 2](https://github.com/Aadhithyan2006)** | Brief description of what this project does | React, Node.js |
+⚙️ File 2: .github/workflows/snake.yml
+This makes the snake animation work. In your profile repo, create the folder .github/workflows/ and add this file:
+
+yaml
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Aadhithyan2006
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+        
