@@ -20,16 +20,13 @@
 ## 👨‍💻 About Me
 
 ```js
-const aadhithyan = {
-  name: "Aadhithyan M",
-  education: "B.Tech — Computer Science & Business Systems",
-  role: "Aspiring Full-Stack Developer",
-  location: "Karur, Tamil Nadu 🇮🇳",
-  currentlyBuilding: ["AI support agents", "Smart-city & railway tech", "Gamified eco-learning"],
-  learning: ["React", "Node.js", "TypeScript", "DSA"],
-  openTo: ["Open source", "Hackathons", "Internships", "Side projects"],
+  Name: Aadhithyan M,
+  Education: B.Tech — Computer Science & Business Systems,
+  Location: Karur, Tamil Nadu 🇮🇳,
+  CurrentlyBuilding: AI support agents, Smart-city & railway tech, Gamified eco-learning,
+  Learning: JAVA, Python, Machine Learning, Generative AI
+  OpenTo: Open source, Internships, Side projects,
   funFact: "I debug with console.log and pray 🙏",
-};
 ```
 
 ---
