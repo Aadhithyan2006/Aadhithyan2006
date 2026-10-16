@@ -19,7 +19,6 @@
 
 ## 👨‍💻 About Me
 
-```js
   Name: Aadhithyan M,
   Education: B.Tech — Computer Science & Business Systems,
   Location: Karur, Tamil Nadu 🇮🇳,
@@ -27,7 +26,7 @@
   Learning: JAVA, Python, Machine Learning, Generative AI
   OpenTo: Open source, Internships, Side projects,
   funFact: "I debug with console.log and pray 🙏",
-```
+
 
 ---
 
